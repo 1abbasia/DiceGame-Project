@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cee-Lo!</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+<body>
+  <div class='intro'>
+    <div>CEE-Lo</div>
+    <p id="p">Welcome to Cee-Lo!!</p> 
+    <p id="p">Rules: Two players roll.</p>
+    <p id="p">The automatic win combination is any combo of 4-5-6.</p>
+    <p id="p">Any combination of 1-2-3 is an automatic loss.</p>
+    <p id="p">Two of the dice must be the same and the differing dice number is your score</p> 
+    <p id="p"> For example: a 5-5-1 signfifies a score of 1.  a 1-1-5 signifies a score of 5.</p>
+    <p id="p">If all your dice are different numbers you mus roll till you get a good score.</p>
+  <div>
+    <div class="player1-container">
+      <h1>Player One</h1>
+      <div class='dice-player1' id='1d1'></div>
+      <div class='dice-player1' id='1d2'></div>
+      <div class='dice-player1' id='1d3'></div>
+
+      <button id='btn1'>Roll Now!</button>
+
+      <div><p id="sco1">SCORE:</p><p id="p1score">0</p></div>
+
+    </div>
+    
+    <div class="player2-container">
+      <h1>Player 2</h1>
+      <div class='dice-player2' id="2d1"> <p id='ply2d1'></p></div>
+      <div class='dice-player2'id="2d2"><p id='ply2d2'></p> </div>
+      <div class='dice-player2' id="2d3"> <p id='ply2d3'></p></div> 
+      <button id='btn2'>Roll Now!</button> 
+      <div><p id="sco2">SCORE:</p><p id="p2score">0</p></div>
+    </div>    
+    <script src="./app.js"></script>
+</body>
+</html>
