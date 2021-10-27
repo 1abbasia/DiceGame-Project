@@ -48,6 +48,55 @@
   let finScore1=document.getElementById('p1score').innerHTML=score
     
 }
+
+function roll2(){
+
+  console.log('hi') //check to see if roll function fires
+  
+  let div1=Math.ceil(Math.random()*6); //There are 3 die so 3 different random numbers
+  let div2=Math.ceil(Math.random()*6);
+  let div3=Math.ceil(Math.random()*6);
+
+  // console.log(div1,div2,div3); //check if random num works
+
+  document.getElementById('2d1').innerHTML=div1; //put the values of roll into divs
+  document.getElementById('2d2').innerHTML=div2;
+  document.getElementById('2d3').innerHTML=div3;
+
+  let rolledDie1 = [div1,div2,div3]; //make the rolled number into array
+
+  // console.log(rolledDie1); //check if array shows
+   let score;
+
+
+   let sorted = [...rolledDie1].sort((a, b) => a - b).join('');
+
+   console.log(sorted);
+
+  if (sorted === '456') {
+    console.log('YOU WIN')
+  }
+  
+  if (sorted === '123') {
+    console.log('YOU LOSE')
+  }
+
+  if (rolledDie1[0] === rolledDie1[1]){
+        score = rolledDie1[2];
+     } else if ( rolledDie1[0] === rolledDie1[2]){
+        score = rolledDie1[1];
+     } else if (rolledDie1[1] === rolledDie1[2]){
+         score = rolledDie1[0];
+     } else {score ='roll again';}
+    console.log(score);
+  
+  
+
+    console.log(score);
+  
+  let finScore1=document.getElementById('p2score').innerHTML=score
+    
+}
       
     
 
