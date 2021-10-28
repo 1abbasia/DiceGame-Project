@@ -75,26 +75,41 @@ function roll2(){
    console.log(sorted);
 
   if (sorted === '456') {
-    let winCon = document.getElementById('p2score').innerHTML='YOU WIN!';
-    // console.log('YOU WIN')
+    document.getElementById('p2score').innerHTML="YOU WIN!";;
+    alert('Player 2 wins!')
+    console.log('YOU WIN')
   }
   
 
   if (sorted === '123') {
-    let loseCon = document.getElementById('p2score').innerHTML="YOU LOSE!";
-
-    // console.log('YOU LOSE')
+    document.getElementById('p2score').innerHTML="YOU LOSE!";
+     alert('Player 1 Wins!');
+    console.log('YOU LOSE')
   }
+ 
+  // let loseCon = document.getElementById('p2score').innerHTML;
+  // let winCon = document.getElementById('p2score').innerHTML;
+ 
+  
+    
+  
+    if (rolledDie1[0] === rolledDie1[1]){
+      score = rolledDie1[2];
+   } else if ( rolledDie1[0] === rolledDie1[2]){
+      score = rolledDie1[1];
+   } else if (rolledDie1[1] === rolledDie1[2]){
+       score = rolledDie1[0];
+   }  else {score ='roll again';}
 
+  
 
-  if (rolledDie1[0] === rolledDie1[1]){
-        score = rolledDie1[2];
-     } else if ( rolledDie1[0] === rolledDie1[2]){
-        score = rolledDie1[1];
-     } else if (rolledDie1[1] === rolledDie1[2]){
-         score = rolledDie1[0];
-     } else if (!loseCon || !winCon ) 
-     {score ='roll again';}
+    //  if (rolledDie1[0] === rolledDie1[1]){
+    //     score = rolledDie1[2];
+    //  } else if ( rolledDie1[0] === rolledDie1[2]){
+    //     score = rolledDie1[1];
+    //  } else if (rolledDie1[1] === rolledDie1[2]){
+    //      score = rolledDie1[0];
+    //  }  else {score ='roll again';}
     // console.log(score);
   
   
@@ -112,8 +127,8 @@ function roll2(){
   
    document.getElementById('btn2').addEventListener('click', roll2);
 
-   let finScore2=document.getElementById('p2score').innerHTML;
-   let finScore1=document.getElementById('p1score').innerHTML;
+  //  let finScore2=document.getElementById('p2score').innerHTML;
+  //  let finScore1=document.getElementById('p1score').innerHTML;
    
 
   
