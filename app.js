@@ -71,15 +71,21 @@ function roll2(){
 
    let sorted = [...rolledDie1].sort((a, b) => a - b).join('');
 
+  
    console.log(sorted);
 
   if (sorted === '456') {
-    console.log('YOU WIN')
+    let winCon = document.getElementById('p2score').innerHTML='YOU WIN!';
+    // console.log('YOU WIN')
   }
   
+
   if (sorted === '123') {
-    console.log('YOU LOSE')
+    let loseCon = document.getElementById('p2score').innerHTML="YOU LOSE!";
+
+    // console.log('YOU LOSE')
   }
+
 
   if (rolledDie1[0] === rolledDie1[1]){
         score = rolledDie1[2];
@@ -87,14 +93,15 @@ function roll2(){
         score = rolledDie1[1];
      } else if (rolledDie1[1] === rolledDie1[2]){
          score = rolledDie1[0];
-     } else {score ='roll again';}
-    console.log(score);
+     } else if (!loseCon || !winCon ) 
+     {score ='roll again';}
+    // console.log(score);
   
   
 
     console.log(score);
   
-  let finScore1=document.getElementById('p2score').innerHTML=score
+  let finScore2=document.getElementById('p2score').innerHTML=score
     
 }
       
@@ -109,4 +116,4 @@ function roll2(){
    let finScore1=document.getElementById('p1score').innerHTML;
    
 
-   console.log(finScore1);
+  
