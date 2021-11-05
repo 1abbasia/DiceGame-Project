@@ -121,7 +121,7 @@ function roll2(){
 }
       
     
-
+document.getElementById
  
   document.getElementById('btn1').addEventListener('click', roll);
   
