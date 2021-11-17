@@ -1,19 +1,25 @@
-body{background-image:url(assets/worldDice.png);
+html { 
+  background: url(assets/worldDice.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
 .player1-container {
-  
-  width: 50%;
-  height: 100vh;
+  background-color: #0F9A9B;
+  width: 35%;
+  height: 50vh;
   float: left;
 }
 
 .player2-container {
   
-  float: left;
-  width: 50%;
-  height: 100vh;
+  float: right;
+  background-color: #0F9A9B;
+  width: 35%;
+  height: 50vh;
   
 }
 
