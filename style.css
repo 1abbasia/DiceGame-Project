@@ -8,7 +8,7 @@ html {
 }
 
 .player1-container {
-  background-color: #0F9A9B;
+  background-color: white;
   width: 35%;
   height: 50vh;
   float: left;
@@ -23,7 +23,16 @@ html {
   
 }
 
-h1{color:red;}
+.opacity {
+  opacity: .50;
+}
+
+.player1title {
+  color:red;
+  background-color: black;
+  text-align: center;
+  opacity: 1.0;
+}
 
 .dice-player1{
   background-color: whitesmoke;
