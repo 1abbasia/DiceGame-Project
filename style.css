@@ -4,7 +4,20 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+/* Looked this snippet up on Css-Trick.com while searching for ways to make the background image stick and cover the whole ducemnt. */
+}
 
+h1 {
+  font-family: 'Casino Flat', sans-serif;
+  /* display: block; */
+  margin: 0 auto;
+  text-align: center;
+  /* border-radius: 50px; */
+  background-color: white;
+}
+
+.scoreshow {
+  background-color: #0F9A9B;
 }
 
 .player1-container {
@@ -12,6 +25,7 @@ html {
   width: 35%;
   height: 50vh;
   float: left;
+  
 }
 
 .player2-container {
@@ -24,14 +38,14 @@ html {
 }
 
 .opacity {
-  opacity: .50;
+  
 }
 
 .player1title {
   color:red;
   background-color: black;
   text-align: center;
-  opacity: 1.0;
+  
 }
 
 .dice-player1{
