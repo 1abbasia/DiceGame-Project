@@ -40,5 +40,14 @@ App app must:
 - **Deploy your game online**, where the rest of the world can access it
 - Use **adaptive design** and media queries for HTML and CSS (adhere to best practices)
 
+### User stories (for MVP)
+
+- **As a user I navigat to the C-lo page and see a single page which makes it very concise and clear what the game rules are and how I would play the game**
+- **I see two separate Player sections, that way I can play with a friend**
+- **I click Roll and the values of my Dice Roll show up**
+- **If I get a score, I can clearly see what the score is and which player it is associated with**
+- **I can click a reset button to reset the roll values**
+- **If there is a winner, there should be a clear prompt indicating which player won**
+
 ### Currently Refactoring:
  - The JS logic for the dice roll function.  Its at 500 Lines right now!! Hardcoded if/else statements :vomiting_face:

@@ -1,0 +1,10 @@
+----Thur Nov 18--
+
+Gotta get a MFing MVP up!  Too much time wasted with CSS
+1.  Ok so it seems like i have to stack the "boxes" horizontally
+  -I only need to show the div with the roll button, the roll values boxes, and images if I want
+  -So far im thinking one big div as the background and set that to image cover.
+  -Two divs within that div for the player "area"
+  -The two player divs will have a roll button
+
+  //When above is finished, Start next upgrade to project//
