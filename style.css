@@ -11,6 +11,7 @@ html {
 body {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 header {
@@ -44,18 +45,22 @@ h1 {
 
 .player1-container {
   background-color: white;
-  width: 35%;
-  height: vh;
+  width: auto;
+  
   /* float: left; */
   display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .player2-container {
   display: flex;
+  flex-direction: column;
   /* float: right; */
   background-color: #0F9A9B;
-  width: 35%;
-  height: 50vh;
+  width: auto;
+  
+  justify-content:start;
   
 }
 
@@ -70,6 +75,10 @@ h1 {
   
 }
 
+.player2title {
+  color: red;
+  background-color: black;
+}
 .dice-player1{
   background-color: whitesmoke;
   width: 100px;
