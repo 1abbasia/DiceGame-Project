@@ -1,4 +1,15 @@
 
+let selectBox = document.getElementById("char-select");
+let selectBox2 = document.getElementById("char-select2")
+
+selectBox.addEventListener("change", e =>{
+  document.getElementById("char-image").src = selectBox.value;
+  
+})
+selectBox2.addEventListener("change", e =>{
+  document.getElementById("char-image2").src = selectBox2.value;
+  
+})
 
   function roll(){
 
