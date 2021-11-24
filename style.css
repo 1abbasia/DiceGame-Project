@@ -23,6 +23,17 @@ header {
     
 }
 
+select {
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+}
+
 h1 {
   font-family: 'Casino Flat', sans-serif;
   display: inline-block;
@@ -44,7 +55,8 @@ h2 {
 
 #main {
   font-size: large;
-  height: 50px;
+  width: auto;
+  height: auto;
 }
 
 img {
@@ -116,8 +128,8 @@ img {
 }
 .dice-player1{
   background-color: whitesmoke;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
   display: block;
   border-style: solid;
   border-radius: 10px;
@@ -126,8 +138,8 @@ img {
 
 .dice-player2{
   background-color: whitesmoke;
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: 35px;
   float: left;
   border-style: solid;
   border-radius: 10px;
@@ -135,14 +147,17 @@ img {
 }
 
 button {
-    background-color: #4CAF50;
+    background-image: url(https://media.istockphoto.com/photos/red-casino-dice-picture-id1132091114);
+    background-size: cover;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color:black;
+    padding: 20px 32px;
     text-align: center;
-    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: burlywood;
     display: block;
-    border-radius: 15px;
+    border-radius: 25px;
     
 }
 
