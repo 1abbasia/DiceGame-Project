@@ -12,7 +12,7 @@
   <div class= "main-play-area">
     <div class="player1-container">
       <div class= "player1-select-area" >
-        <section>Welcome To Cee Lo! The street dice game!</section>
+        <section id= "main"><h2>Welcome To Cee Lo! The street dice game!</h2></section>
         <select id ="char-select">
           <option value = "assets/worldDice">Choose Your Dice Roller!</option>
           <option value ="https://media4.giphy.com/media/cIxx7i1rj137W/giphy.gif">Ashy Larry</option>
@@ -23,17 +23,37 @@
         </select>
          <img id="char-image" src="assets/worldDice.png"/>
       </div>
-      
+      <div class= "rollarea">
         <div class='dice-player1' id='1d1'></div>
         <div class='dice-player1' id='1d2'></div>
         <div class='dice-player1' id='1d3'></div>
         <button id='btn1'>Roll Now!</button>
+      </div>
+        
       
         
     </div>
- 
-    
-  
+    <div class= "middle-space">
+        <section id= "intro">
+          <ul>
+            <li>Select side and character</li>
+            <li>4-5-6 is an AUTO WIN!</li>
+            <li>1-2-3 is an AUTO LOSS!!!</li>
+            <li>Score is the non duplicate roll. Examples:</li>
+            <ul>
+              <li id= "ex">3-5-5 means a score of 3</li>
+              <li id= "ex">1-1-6 means a score of 6</li>
+              <li id= "ex">2-2-1 means score of 1</li>
+              <li id= "ex">6-6-3 means a score of 3</li>
+              <li id= "ex">2-5-6 means you have to roll again until one duplicate</li>
+              <li id= "ex">3-3-3 means score of 3</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <img src="assets/image.png"/>
+        </section>
+    </div>
     <div class= "player2-select-area" >
       <section>Welcome To Cee Lo! The street dice game!</section>
       <select id ="char-select2">
@@ -45,17 +65,20 @@
         <option value ="https://media2.giphy.com/media/8miPNVlKhbtjW/giphy.gif">Phyuch Yiu</option>
       </select>
        <img id="char-image2" src="assets/worldDice.png"/>
-    </div>
 
-      
+       <div class= "rollarea">
         <div class='dice-player2' id="2d1"> </div>
         <div class='dice-player2'id="2d2"> </div>
         <div class='dice-player2' id="2d3"> </div> 
         <button id='btn2'>Roll Now!</button> 
+      </div>
+
+    </div>
+        
       
     
     </div>   
-  </div>
+  
 
   
     
