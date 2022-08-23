@@ -127,37 +127,36 @@ img {
   background-color: black;
 }
 .dice-player1{
-  background-color: whitesmoke;
-  width: 35px;
-  height: 35px;
-  display: block;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: red;
+  background-image: url(https://previews.123rf.com/images/lupen/lupen1501/lupen150100001/35514831-one-red-dice-falling-on-a-white-background.jpg);
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  float: left;
+  text-align: center;
 }
 
 .dice-player2{
-  background-color: whitesmoke;
-  width: 35px;
-  height: 35px;
+  background-image: url(https://previews.123rf.com/images/lupen/lupen1501/lupen150100001/35514831-one-red-dice-falling-on-a-white-background.jpg);
+  background-size: cover;
+  width: 75px;
+  height: 75px;
   float: left;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: blue;
+  text-align: center;
 }
 
 button {
-    background-image: url(https://media.istockphoto.com/photos/red-casino-dice-picture-id1132091114);
-    background-size: cover;
+    background-color: burlywood;
     border: none;
     color:black;
     padding: 20px 32px;
-    text-align: center;
+    text-align: justify;
     font-weight: 600;
     font-family: sans-serif;
     text-decoration: burlywood;
     display: block;
     border-radius: 25px;
+    width: 40px;
+    height: 40px;
     
 }
 
