@@ -8,3 +8,13 @@ Gotta get a MFing MVP up!  Too much time wasted with CSS
   -The two player divs will have a roll button
 
   //When above is finished, Start next upgrade to project//
+
+  //Refactoring with React and User c omponenets in mind:
+  1. Main component (body) that has:
+      a. Component for Player 1
+      b. Component for Player 2
+      c. Component for Dice Display
+      d. Component for  displaying Roll Results 
+      e. Componnet to display Results.
+
+    2. Expand database with more characters 
