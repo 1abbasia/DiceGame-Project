@@ -1,4 +1,5 @@
 
+let rollFunc;
 let selectBox = document.getElementById("char-select");
 let selectBox2 = document.getElementById("char-select2")
 
