@@ -17,7 +17,7 @@ selectBox2.addEventListener("change", e =>{
   console.log('hi') //check to see if roll function fires
   
   let div1=Math.ceil(Math.random()*6); //There are 3 die so 3 different random numbers
-  let div2=Math.ceil(Math.random()*6);
+  let div2=Math.ceil(Math.random()*6); 
   let div3=Math.ceil(Math.random()*6);
 
   // console.log(div1,div2,div3); //check if random num works
