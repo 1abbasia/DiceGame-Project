@@ -18,3 +18,5 @@ Gotta get a MFing MVP up!  Too much time wasted with CSS
       e. Componnet to display Results.
 
     2. Expand database with more characters 
+
+    3.  Should have animations!
